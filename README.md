@@ -10,6 +10,9 @@ A 6 x 6 chessboard with 2 white and 2 black queens positioned as shown in the pi
 
 ## Rules
 
+The rules of the game are very simple. Two players (black and white) take turns until one of them cannot play anymore.
+### Turn
+
 ## Approach
 
 
