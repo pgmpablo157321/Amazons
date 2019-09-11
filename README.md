@@ -25,6 +25,7 @@ After the player has moved a queen, he/she blocks a space in the board. But the 
 </p>
 <br>
 Here
+
 ## Approach
 
 
