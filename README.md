@@ -21,7 +21,7 @@ At the beginning of the turn, the player moves one of his/her queens in the way 
 After the player has moved a queen, he/she blocks a space in the board. But the player can only block the places where the queen that most recently moved can reach in one extra move. For example:
 <br>
 <p align="center">
-<img align = "center" src="https://raw.githubusercontent.com/pgmpablo157321/Amazons/master/blockOptions.png">
+<img align = "center" src="https://github.com/pgmpablo157321/Amazons/blob/master/block_options.png?raw=true">
 </p>
 <br>
 Here the white queen has moved, and can block any of the orange spaces.
