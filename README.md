@@ -24,7 +24,7 @@ After the player has moved a queen, he/she blocks a space in the board. But the 
 <img align = "center" src="https://raw.githubusercontent.com/pgmpablo157321/Amazons/master/blockOptions.png">
 </p>
 <br>
-Here
+Here the white queen has moved, and can block any of the orange spaces.
 
 ## Approach
 
