@@ -18,7 +18,6 @@ At the beginning of the turn, the player moves one of his/her queens in the way 
 <p align="center">
 <img align = "center" src="https://raw.githubusercontent.com/pgmpablo157321/Amazons/master/move.png">
 </p>
-<br>
 .
 ##### Blocking
 <br>
@@ -27,7 +26,6 @@ After the player has moved a queen, he/she blocks a space in the board. But the 
 <p align="center">
 <img align = "center" src="https://github.com/pgmpablo157321/Amazons/blob/master/block_options.png?raw=true">
 </p>
- .
 <br>
 Here the player has move one of the white queens, and can block any of the orange spaces.
 
