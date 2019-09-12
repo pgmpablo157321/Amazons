@@ -18,7 +18,7 @@ At the beginning of the turn, the player moves one of his/her queens in the way 
 <p align="center">
 <img align = "center" src="https://raw.githubusercontent.com/pgmpablo157321/Amazons/master/move.png">
 </p>
-.
+()
 ##### Blocking
 <br>
 After the player has moved a queen, he/she blocks a space in the board. But the player can only block the places where the queen that most recently moved can reach in one extra move. For example:
