@@ -45,6 +45,7 @@ Notice that the next player cannot move through the blocked space nor the other 
 </p>
 <br>
 The same rule applies to blocking.
+
 For more in depth description of the rules of the game, click [here](https://en.wikipedia.org/wiki/Game_of_the_Amazons)
 
 ## Approach
