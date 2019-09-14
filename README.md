@@ -22,7 +22,6 @@ At the beginning of the turn, the player moves one of his/her queens in the way 
 
 
 ##### Blocking
-<br>
 After the player has moved a queen, he/she blocks a space in the board. But the player can only block the places where the queen that most recently moved can reach in one extra move. For example:
 <br>
 <p align="center">
@@ -49,6 +48,7 @@ The same rule applies to blocking.
 For more in depth description of the rules of the game, click [here](https://en.wikipedia.org/wiki/Game_of_the_Amazons)
 
 ## Approach
+We will aproach this problem by using a minimax algorithm and by making it more efficient with an alfa-beta prunning. For a description of these:[minimax](https://en.wikipedia.org/wiki/Minimax) and [alfa-beta prunning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)
 
 
 ## Heuristic
