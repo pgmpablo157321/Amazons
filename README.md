@@ -55,4 +55,4 @@ Notice that the [tree of the game](https://en.wikipedia.org/wiki/Game_tree) at t
 ## Heuristic
 In order to use the minimax algorithm, we need a good heuristic to evaluate how good is a state of the game. After a lot games played, the following heuristic was proposed:
 
-The main goal of the heuristic is to recognize which spaces of the board "belong" to each player. The player with more spaces will be able to make more moves than the other player and will win the game. To achieve that, we define the following funtion:
+The main goal of the heuristic is to recognize which spaces of the board "belong" to each player. The player with more spaces will be able to make more moves than the other player and will win the game. To achieve that, we define the following funtion: $F(T,Q,x,y)$
