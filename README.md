@@ -50,6 +50,9 @@ For more in depth description of the rules of the game, click [here](https://en.
 ## Approach
 We will aproach this problem by using a minimax algorithm and by making it more efficient with an alfa-beta prunning. For a description of these: [minimax](https://en.wikipedia.org/wiki/Minimax) and [alfa-beta prunning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)
 
-Notice that the [tree of the game](https://en.wikipedia.org/wiki/Game_tree) at the beggining is very large (particularly very wide). In fact, the first player has 468 posible moves for her/his first turn! That is kind of a problem since we can't see very far in the tree. However notice that as the game progresses the number of possible moves tends to shrink, since there are more blocked spaces (meaning less spaces where to move).
+Notice that the [tree of the game](https://en.wikipedia.org/wiki/Game_tree) at the beggining is very large (particularly very wide). In fact, the first player has 468 possible moves for her/his first turn! That is kind of a problem since we can't see very far in the tree. However notice that as the game progresses the number of possible moves tends to shrink, since there are more blocked spaces (meaning less spaces where to move!). So the final algorithm that plays the game will call the minimax algorithm with a depth in function of the number of not blocked space in the game.
 
 ## Heuristic
+In order to use the minimax algorithm, we need a good heuristic to evaluate how good is a state of the game. After a lot games played, the following heuristic was proposed:
+
+The main goal of the heuristic is to recognize which spaces of the board "belong" to each player. The player with more spaces will be able to make more moves than the other player and will win the game. To achieve that, we define the following funtion:
