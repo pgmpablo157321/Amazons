@@ -48,7 +48,8 @@ The same rule applies to blocking.
 For more in depth description of the rules of the game, click [here](https://en.wikipedia.org/wiki/Game_of_the_Amazons)
 
 ## Approach
-We will aproach this problem by using a minimax algorithm and by making it more efficient with an alfa-beta prunning. For a description of these:[minimax](https://en.wikipedia.org/wiki/Minimax) and [alfa-beta prunning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)
+We will aproach this problem by using a minimax algorithm and by making it more efficient with an alfa-beta prunning. For a description of these: [minimax](https://en.wikipedia.org/wiki/Minimax) and [alfa-beta prunning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)
 
+Notice that the [tree of the game](https://en.wikipedia.org/wiki/Game_tree) at the beggining is very large (particularly very wide). In fact, the first player has 468 posible moves for her/his first turn! That is kind of a problem since we can't see very far in the tree. However notice that as the game progresses the number of possible moves tends to shrink, since there are more blocked spaces (meaning less spaces where to move).
 
 ## Heuristic
